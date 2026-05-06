@@ -44,7 +44,7 @@ WiFiClient client;
 
 // UIDs permitidos
 String uidPermitido1 = "F3B6C00C";
-String uidPermitido2 = "A1B2C3D4";
+String uidPermitido2 = "123456";
 
 bool uidEstaPermitido(String uid) {
   return uid == uidPermitido1 || uid == uidPermitido2;
