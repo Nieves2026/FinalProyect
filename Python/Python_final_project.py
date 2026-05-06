@@ -26,6 +26,7 @@ INTERVALO_LECTURA = 20  # segundos
 UMBRAL_LUZ_APERTURA = 50  # lux, puedes ajustarlo según tus pruebas
 aaa=5;
 bbb=6;
+ccc=7;
 
 
 def leer_datos_thingspeak():
