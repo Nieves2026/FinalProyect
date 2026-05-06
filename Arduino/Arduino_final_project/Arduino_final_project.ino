@@ -41,8 +41,14 @@ Adafruit_TSL2561_Unified tsl = Adafruit_TSL2561_Unified(TSL2561_ADDR_FLOAT, 1234
 
 WiFiClient client;
 
-// UID permitido
-String uidPermitido = "F3B6C00C";
+
+// UIDs permitidos
+String uidPermitido1 = "F3B6C00C";
+String uidPermitido2 = "A1B2C3D4";
+
+bool uidEstaPermitido(String uid) {
+  return uid == uidPermitido1 || uid == uidPermitido2;
+}
 
 // Control envío
 unsigned long ultimoEnvio = 0;
