@@ -24,6 +24,7 @@ INTERVALO_LECTURA = 20  # segundos
 
 # Umbral de luz para detectar posible apertura
 UMBRAL_LUZ_APERTURA = 50  # lux, puedes ajustarlo según tus pruebas
+aaa=5;
 
 
 def leer_datos_thingspeak():
